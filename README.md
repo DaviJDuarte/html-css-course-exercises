@@ -18,4 +18,6 @@ Lesson 13 - Nested Flexbox<br>
 Lesson 14 - CSS Position<br>
 Lesson 15 - Position Absolute and Relative<br>
 Lesson 16 - Finish the Project<br>
-Lesson 17 - More CSS Features<br>
+Lesson 17 - More CSS Features<br><br>
+
+A course given by SuperSimpleDev
