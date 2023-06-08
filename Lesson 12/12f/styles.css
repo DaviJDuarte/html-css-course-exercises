@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(113, 83, 171);
+    height: 50px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+input {
+    height: 25px;
+    flex: 1;
+    margin: 0 80px;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 20px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    color: white;
+    background: none;
+    border: 1px white solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+button:hover {
+    color: rgb(113, 83, 171);
+    background: white;
+}
+
+button:active {
+    opacity: .8;
+}

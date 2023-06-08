@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 60px;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    margin: 20px;
+}
+
+.info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.about,
+.popular {
+    color: gray;
+}
+
+.about {
+    margin: 5px 0;
+}
+
+.popular {
+    font-size: 14px;
+}
+
+button {
+    color: white;
+    background-color: rgb(64, 146, 238);
+    font-size: 16px;
+    padding: 8px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button:hover {
+    color: rgb(64, 146, 238);
+    background-color: white;
+    border: 1px rgb(64, 146, 238) solid;
+}

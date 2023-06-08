@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.box {
+    width: 250px;
+    margin: 20px;
+    border: 1px rgba(128, 128, 128, 0.456) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 5px 10px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #406BEC;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    filter: brightness(125%);
+}
