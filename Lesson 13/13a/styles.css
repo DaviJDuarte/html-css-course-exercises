@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: lightpink;
+}
+
+.right {
+    width: 200px;
+    background-color: lightblue;
+}
+
+.item {
+    color: white;
+    background-color: black;
+}

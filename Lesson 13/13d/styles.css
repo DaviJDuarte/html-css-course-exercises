@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.inbox{
+    width: fit-content;
+    margin: 20px;
+    padding: 14px 18px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.all-inboxes{
+    font-size: 14px;
+    opacity: .6;
+}
+
+img{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.message{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.info{
+    width: 350px;
+}
+
+.name-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    margin-bottom: 5px;
+}
+
+.time{
+    font-size: 13px;
+    opacity: .5;
+}
+
+.name, .subject{
+    font-weight: bold;
+}
+
+.preview{
+    margin-top: 5px;
+    color: gray;
+}
